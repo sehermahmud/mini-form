@@ -1,0 +1,30 @@
+{
+  "name": "js-testing-introduction",
+  "version": "1.0.0",
+  "description": "An introduction to JS testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack app.js --mode development --watch",
+    "test": "jest --watch"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "testing",
+    "jest",
+    "unit",
+    "tests",
+    "integration",
+    "tests",
+    "e2e",
+    "tests"
+  ],
+  "author": "Seher Mahmud",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "puppeteer": "^1.8.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
